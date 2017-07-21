@@ -34,10 +34,11 @@
 		0D252F291F2199C700C5A20D /* HZHMainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D252F281F2199C700C5A20D /* HZHMainNavController.swift */; };
 		0D252F2E1F219AE200C5A20D /* HZHPersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D252F2D1F219AE200C5A20D /* HZHPersonalController.swift */; };
 		0D252F301F219AF300C5A20D /* HZHSportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D252F2F1F219AF300C5A20D /* HZHSportController.swift */; };
+		0D252F321F219F7F00C5A20D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D252F311F219F7F00C5A20D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D252ED01F21966A00C5A20D /* Weight-loss-plans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight-loss-plans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D252ED01F21966A00C5A20D /* WeightLossPlans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightLossPlans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D252ED31F21966A00C5A20D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D252EDB1F21966A00C5A20D /* Weight_loss_plans.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weight_loss_plans.xcdatamodel; sourceTree = "<group>"; };
 		0D252EDD1F21966A00C5A20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		0D252F281F2199C700C5A20D /* HZHMainNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZHMainNavController.swift; sourceTree = "<group>"; };
 		0D252F2D1F219AE200C5A20D /* HZHPersonalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZHPersonalController.swift; sourceTree = "<group>"; };
 		0D252F2F1F219AF300C5A20D /* HZHSportController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZHSportController.swift; sourceTree = "<group>"; };
+		0D252F311F219F7F00C5A20D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,7 @@
 		0D252ED11F21966A00C5A20D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D252ED01F21966A00C5A20D /* Weight-loss-plans.app */,
+				0D252ED01F21966A00C5A20D /* WeightLossPlans.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +202,7 @@
 		0D252F0E1F21990600C5A20D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0D252F771F21A76700C5A20D /* Test */,
 				0D252F231F21997800C5A20D /* Main */,
 				0D252F2C1F219A8E00C5A20D /*  Personal */,
 				0D252F2B1F219A8600C5A20D /* Sport */,
@@ -256,12 +259,20 @@
 			path = " Personal";
 			sourceTree = "<group>";
 		};
+		0D252F771F21A76700C5A20D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0D252F311F219F7F00C5A20D /* ViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D252ECF1F21966A00C5A20D /* Weight-loss-plans */ = {
+		0D252ECF1F21966A00C5A20D /* WeightLossPlans */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D252EE51F21966A00C5A20D /* Build configuration list for PBXNativeTarget "Weight-loss-plans" */;
+			buildConfigurationList = 0D252EE51F21966A00C5A20D /* Build configuration list for PBXNativeTarget "WeightLossPlans" */;
 			buildPhases = (
 				0D252ECC1F21966A00C5A20D /* Sources */,
 				0D252ECD1F21966A00C5A20D /* Frameworks */,
@@ -271,9 +282,9 @@
 			);
 			dependencies = (
 			);
-			name = "Weight-loss-plans";
+			name = WeightLossPlans;
 			productName = "Weight-loss-plans";
-			productReference = 0D252ED01F21966A00C5A20D /* Weight-loss-plans.app */;
+			productReference = 0D252ED01F21966A00C5A20D /* WeightLossPlans.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D252ECB1F21966A00C5A20D /* Build configuration list for PBXProject "Weight-loss-plans" */;
+			buildConfigurationList = 0D252ECB1F21966A00C5A20D /* Build configuration list for PBXProject "WeightLossPlans" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -307,7 +318,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D252ECF1F21966A00C5A20D /* Weight-loss-plans */,
+				0D252ECF1F21966A00C5A20D /* WeightLossPlans */,
 			);
 		};
 /* End PBXProject section */
@@ -337,6 +348,7 @@
 				0D252F111F21990600C5A20D /* NSAttributedString+CZAdditon.m in Sources */,
 				0D252F151F21990600C5A20D /* NSString+CZPath.m in Sources */,
 				0D252F101F21990600C5A20D /* NSArray+Log.m in Sources */,
+				0D252F321F219F7F00C5A20D /* ViewController.swift in Sources */,
 				0D252EDC1F21966A00C5A20D /* Weight_loss_plans.xcdatamodeld in Sources */,
 				0D252F1C1F21990600C5A20D /* UIView+JKFrame.m in Sources */,
 				0D252F161F21990600C5A20D /* UIButton+CZAddition.m in Sources */,
@@ -495,7 +507,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D252ECB1F21966A00C5A20D /* Build configuration list for PBXProject "Weight-loss-plans" */ = {
+		0D252ECB1F21966A00C5A20D /* Build configuration list for PBXProject "WeightLossPlans" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D252EE31F21966A00C5A20D /* Debug */,
@@ -504,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D252EE51F21966A00C5A20D /* Build configuration list for PBXNativeTarget "Weight-loss-plans" */ = {
+		0D252EE51F21966A00C5A20D /* Build configuration list for PBXNativeTarget "WeightLossPlans" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D252EE61F21966A00C5A20D /* Debug */,

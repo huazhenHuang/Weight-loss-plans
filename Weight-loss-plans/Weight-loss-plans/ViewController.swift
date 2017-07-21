@@ -1,5 +1,5 @@
 //
-//  HZHMainController.swift
+//  ViewController.swift
 //  Weight-loss-plans
 //
 //  Created by 黄振华 on 2017/7/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HZHMainController: UITabBarController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
