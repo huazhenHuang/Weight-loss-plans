@@ -21,17 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.backgroundColor = UIColor.white
         
-        
-        
-        guard let cls = NSClassFromString(Bundle.main.nameSpace + "." + "ViewController") as? UIViewController.Type
-            else {
-                return true
-        }
-        
-        
-        let vc = cls.init()
-        
-        window?.rootViewController = vc
+        window?.rootViewController = HZHMainController()
         
         window?.makeKeyAndVisible()
         
